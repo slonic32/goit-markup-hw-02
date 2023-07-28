@@ -168,6 +168,11 @@ button {
 
 .section3 {
   text-align: center;
+  background-color: var(--color-CLOUD);
+}
+
+.section3-item {
+  background-color: var(--color-WHITE);
 }
 
 .section-footer {

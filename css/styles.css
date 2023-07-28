@@ -43,6 +43,7 @@ button {
 
 .text-h1 {
   color: var(--color-WHITE);
+  background-color: var(--color-Navy-blue);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07143;
@@ -110,6 +111,10 @@ button {
   text-transform: uppercase;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 footer .logo {
   color: var(--color-CLOUD);
 }
@@ -134,4 +139,25 @@ footer .logo {
 .address-link:hover,
 .address-link:focus {
   color: var(--color-OCEAN);
+}
+
+.button-dark {
+  color: var(--color-WHITE);
+  background-color: var(--color-Iris);
+}
+
+.button-dark:hover,
+.button-dark:focus {
+  background-color: var(--color-OCEAN);
+}
+
+.button-light {
+  color: var(--color-Navy-blue);
+  background-color: var(--color-cornflower);
+}
+
+.button-light:hover,
+.button-light:focus {
+  color: var(--color-WHITE);
+  background-color: var(--color-OCEAN);
 }

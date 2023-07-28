@@ -18,6 +18,11 @@ body {
   color: var(--color-SLATE);
   background-color: var(--color-WHITE);
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 ul,
@@ -34,11 +39,6 @@ button {
 }
 
 .text-body {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
 }
 
 .text-h1 {
@@ -48,6 +48,7 @@ button {
   font-weight: 700;
   line-height: 1.07143;
   letter-spacing: 1.12px;
+  text-align: center;
 }
 
 .text-h2 {
@@ -57,6 +58,7 @@ button {
   line-height: 1.11111;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .text-h3 {
@@ -65,6 +67,7 @@ button {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  text-align: center;
 }
 
 .text-small {
@@ -111,11 +114,7 @@ button {
   text-transform: uppercase;
 }
 
-.text-align-center {
-  text-align: center;
-}
-
-footer .logo {
+.logo-footer {
   color: var(--color-CLOUD);
 }
 
@@ -160,4 +159,17 @@ footer .logo {
 .button-light:focus {
   color: var(--color-WHITE);
   background-color: var(--color-OCEAN);
+}
+
+.section1-h3 {
+  text-align: left;
+}
+
+.section3 {
+  text-align: center;
+}
+
+.section-footer {
+  color: var(--color-CLOUD);
+  background-color: var(--color-Navy-blue);
 }

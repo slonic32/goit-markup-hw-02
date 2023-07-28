@@ -19,10 +19,9 @@ body {
   background-color: var(--color-WHITE);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 ul,
@@ -37,6 +36,7 @@ a {
 
 button {
   cursor: pointer;
+  font-family: inherit;
 }
 
 .text-body {
@@ -47,8 +47,8 @@ button {
   background-color: var(--color-Navy-blue);
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07143;
-  letter-spacing: 1.12px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -56,8 +56,8 @@ button {
   color: var(--color-Navy-blue);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11111;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
 }
@@ -67,40 +67,36 @@ button {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
 .text-small {
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 1.16667;
-  letter-spacing: 0.48px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 
 .text-body-medium {
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .text-button {
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
 }
 
 .text-link {
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 1.33333;
-  letter-spacing: 0.48px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
   text-decoration-line: underline;
 }
 
@@ -108,10 +104,9 @@ button {
   color: var(--color-Navy-blue);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
-  line-height: 1.16667;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 

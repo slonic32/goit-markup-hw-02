@@ -15,7 +15,7 @@
 }
 
 body {
-  color: var(--color-Navy-blue);
+  color: var(--color-SLATE);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -25,6 +25,7 @@ body {
 }
 
 h1 {
+  color: var(--color-WHITE);
   font-size: 56px;
   font-weight: 700;
   line-height: 60px; /* 107.143% */
@@ -32,6 +33,7 @@ h1 {
 }
 
 h2 {
+  color: var(--color-Navy-blue);
   font-size: 36px;
   font-weight: 700;
   line-height: 40px; /* 111.111% */
@@ -40,6 +42,7 @@ h2 {
 }
 
 h3 {
+  color: var(--color-Navy-blue);
   font-size: 20px;
   font-weight: 500;
   line-height: 24px; /* 120% */

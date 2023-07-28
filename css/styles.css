@@ -32,6 +32,7 @@ ol {
 a {
   text-decoration: none;
   color: currentColor;
+  font-style: normal;
 }
 
 button {
@@ -101,7 +102,7 @@ button {
 }
 
 .logo {
-  color: var(--color-Navy-blue);
+  color: var(--color-Iris);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -110,12 +111,12 @@ button {
   text-transform: uppercase;
 }
 
-.logo-footer {
-  color: var(--color-CLOUD);
+.logo-web {
+  color: var(--color-Navy-blue);
 }
 
-.logo-web {
-  color: var(--color-Iris);
+.logo-web-footer {
+  color: var(--color-CLOUD);
 }
 
 .navigation-link {
@@ -177,4 +178,12 @@ button {
 
 .section-portfolio-item {
   text-align: left;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }

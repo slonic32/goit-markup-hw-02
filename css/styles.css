@@ -39,14 +39,14 @@ button {
   letter-spacing: 0.02em;
 }
 
-.text-h1 {
+.text-header-large {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
 
-.text-h2 {
+.text-header-medium {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -54,7 +54,7 @@ button {
   text-transform: capitalize;
 }
 
-.text-h3 {
+.text-header-small {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -156,16 +156,16 @@ button {
   background-color: var(--color-Navy-blue);
 }
 
-.section-hero-header1 {
+.section-hero-header {
   color: var(--color-WHITE);
   text-align: center;
 }
 
-.section-solutions-header3 {
+.section-solutions-header {
   color: var(--color-Navy-blue);
 }
 
-.section-wedo-header2 {
+.section-wedo-header {
   color: var(--color-Navy-blue);
   text-align: center;
 }
@@ -174,8 +174,7 @@ button {
   background-color: var(--color-CLOUD);
 }
 
-.section-team-header2,
-.section-team-header3 {
+.section-team-header {
   text-align: center;
   color: var(--color-Navy-blue);
 }
@@ -196,7 +195,7 @@ button {
   color: var(--color-CLOUD);
 }
 
-.section-portfolio-header2 {
+.section-portfolio-header {
   color: var(--color-Navy-blue);
 }
 

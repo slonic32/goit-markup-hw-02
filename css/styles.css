@@ -131,23 +131,23 @@ button {
   color: var(--color-OCEAN);
 }
 
-.button-dark {
+.button-oder {
   color: var(--color-WHITE);
   background-color: var(--color-Iris);
 }
 
-.button-dark:hover,
-.button-dark:focus {
+.button-oder:hover,
+.button-oder:focus {
   background-color: var(--color-OCEAN);
 }
 
-.button-light {
-  color: var(--color-Navy-blue);
-  background-color: var(--color-cornflower);
+.button-filter {
+  color: var(--color-Iris);
+  background-color: var(--color-CLOUD);
 }
 
-.button-light:hover,
-.button-light:focus {
+.button-filter:hover,
+.button-filter:focus {
   color: var(--color-WHITE);
   background-color: var(--color-OCEAN);
 }

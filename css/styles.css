@@ -1,22 +1,6 @@
-:root {
-  /* colors */
-  --color-Iris: #4d5ae5;
-  --color-OCEAN: #404bbf;
-  --color-Navy-blue: #2e2f42;
-  --color-GREEN: #31d0aa;
-  --color-SLATE: #434455;
-  --color-LIGHT-SLATE: #8e8f99;
-  --color-cornflower: #e7e9fc;
-  --color-CLOUD: #f4f4fd;
-  --color-NAVY-BLUE-modal: #2e2f42;
-  --color-GREY: #2e2f42;
-  --color-WHITE: #ffffff;
-  --color-Dairy: #fcfcfc;
-}
-
 body {
-  color: var(--color-SLATE);
-  background-color: var(--color-WHITE);
+  color: #434455;
+  background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -92,30 +76,30 @@ button {
 }
 
 .logo {
-  color: var(--color-Iris);
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .logo-studio {
-  color: var(--color-Navy-blue);
+  color: #2e2f42;
 }
 
 .logo-studio-footer {
-  color: var(--color-CLOUD);
+  color: #f4f4fd;
 }
 
 .header-navigation-link {
-  color: var(--color-Navy-blue);
+  color: #2e2f42;
 }
 
 .header-navigation-link:hover,
 .header-navigation-link:focus {
-  color: var(--color-OCEAN);
+  color: #404bbf;
 }
 
 .header-address {
@@ -123,64 +107,64 @@ button {
 }
 
 .header-address-link {
-  color: var(--color-SLATE);
+  color: #434455;
 }
 
 .header-address-link:hover,
 .header-address-link:focus {
-  color: var(--color-OCEAN);
+  color: #404bbf;
 }
 
 .button-oder {
-  color: var(--color-WHITE);
-  background-color: var(--color-Iris);
+  color: #ffffff;
+  background-color: #4d5ae5;
 }
 
 .button-oder:hover,
 .button-oder:focus {
-  background-color: var(--color-OCEAN);
+  background-color: #404bbf;
 }
 
 .button-filter {
-  color: var(--color-Iris);
-  background-color: var(--color-CLOUD);
+  color: #4d5ae5;
+  background-color: #f4f4fd;
 }
 
 .button-filter:hover,
 .button-filter:focus {
-  color: var(--color-WHITE);
-  background-color: var(--color-OCEAN);
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .section-hero {
-  background-color: var(--color-Navy-blue);
+  background-color: #2e2f42;
 }
 
 .section-hero-header {
-  color: var(--color-WHITE);
+  color: #ffffff;
   text-align: center;
 }
 
 .section-solutions-header {
-  color: var(--color-Navy-blue);
+  color: #2e2f42;
 }
 
 .section-wedo-header {
-  color: var(--color-Navy-blue);
+  color: #2e2f42;
   text-align: center;
 }
 
 .section-team {
-  background-color: var(--color-CLOUD);
+  background-color: #f4f4fd;
 }
 
 .section-team-header {
   text-align: center;
-  color: var(--color-Navy-blue);
+  color: #2e2f42;
 }
 
 .section-team-item {
-  background-color: var(--color-WHITE);
+  background-color: #ffffff;
 }
 
 .section-team-item-text {
@@ -188,17 +172,17 @@ button {
 }
 
 .section-footer {
-  background-color: var(--color-Navy-blue);
+  background-color: #2e2f42;
 }
 
 .section-footer-text {
-  color: var(--color-CLOUD);
+  color: #f4f4fd;
 }
 
 .section-portfolio-header {
-  color: var(--color-Navy-blue);
+  color: #2e2f42;
 }
 
 .section-portfolio-item-text {
-  color: var(--color-SLATE);
+  color: #434455;
 }
